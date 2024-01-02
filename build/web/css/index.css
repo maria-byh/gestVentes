@@ -1,0 +1,78 @@
+.image {
+    position: relative;
+    text-align: center;
+}
+
+.login{
+    position: absolute;
+    top: 5%;
+    right: 50px;
+    display: flex;
+    align-items: center;
+    list-style: none;
+}
+
+.login span{
+    cursor: pointer;
+    font-size: 20px;
+    
+    color: graytext;
+}
+
+.login span i{
+    font-size: 22px;
+    margin: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--grey2);
+    font-size: 16px;
+}
+
+h1 {
+    position: absolute;
+    top: 10%;
+    left: 150px;
+}
+
+h4{
+    position: absolute;
+    top: 25%;
+    left: 30px;
+
+}
+
+.catalogue{
+    position: absolute;
+    top: 40%;
+    left: 20%;
+}
+
+h3{
+    position: absolute;
+    top: 80%;
+    left: 220px;
+
+}
+
+.catalogue a{
+    display: flex;
+    align-items: center;
+    
+    width: 100%;
+    transition: .4s;
+    border:2px solid black;
+    border-radius: 5PX;
+    color: black;
+}
+
+.catalogue a:hover{
+    background-color: black;
+}
+
+.catalogue a .shop{
+    margin-left: 20px;
+    font-size: 20px;
+}
+

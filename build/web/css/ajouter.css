@@ -1,0 +1,48 @@
+legend{
+    font-size: 25px;
+}
+.ajouter{
+     opacity: 99%;
+    max-width: 80%;
+    margin: 8px auto 100px;
+    padding: 10px 45px 30px 45px;
+    text-align: center;
+}
+input{
+    outline: 0;
+    border-radius: 10px;
+    background: #F2F2F2;
+    width: 65%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 10px;
+    box-sizing: border-box;
+    font-size: 14px;
+}
+.label{
+    
+   
+    width: 30%;
+    border: 0;
+    margin: 0 0 15px;
+    padding: 5px;
+    box-sizing: border-box;
+    font-size: 20px;
+}
+   input[type="submit"]{
+    text-transform: uppercase;
+    outline: 0;
+    border-radius: 10px;
+    background: graytext;
+    width: 30%;
+    border: 0;
+    padding: 15px;
+    color: #FFFFFF;
+    font-size: 14px;
+    cursor: pointer;
+}
+ input[type="submit"]:hover, .form input[type="submit"]:active, .form input[type="submit"]:focus{
+    background-color: #D3F8F9;
+    transition: all 1s ease 0s;
+     color: black;
+}

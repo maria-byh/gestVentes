@@ -1,0 +1,95 @@
+.ajouter{
+     position: absolute;
+     top: 2%;
+     right: 10%;
+}
+
+.ajouter a{
+    display: flex;
+    align-items: center;
+    padding: 10px 10px;
+    margin: 10px 0;
+    width: 100%;
+    transition: .4s;
+   border:2px solid black;
+    border-radius: 5PX;
+    color: black;
+}
+ .ajouter a:hover{
+    background-color: black;
+    color: white;
+}
+ .ajouter a .ajout{
+     
+    margin-left: 20px;
+    font-size: 20px;
+}
+
+a{
+    text-decoration: none;
+    color: var(--grey2);
+    font-size: 20px;
+}
+
+
+table{
+        border-collapse: collapse;
+        align-items: center;
+        
+       
+    }
+    tr{
+        border-collapse: collapse;
+        align-items: center;
+    }
+
+
+    .compte-table{
+    display: grid;
+   
+    
+}
+
+
+table thead{
+    align-items: center;
+}
+.compte-table table thead tr th{
+   
+    border: 1px solid silver;
+    padding: 8px 5px;
+    font-weight: bold;
+    color: black;
+    text-align: center;
+    
+   
+   
+}
+
+.compte-table  table tbody tr td{
+    padding: 10px 5px;
+    border: 1px solid silver;
+    text-align: center;
+    
+   
+   
+}
+.comp button{
+           padding: 4px 5px;
+           outline: none;
+           border: 1px  ;
+           font-size: 17px;
+           letter-spacing: 1px;
+           color: #0069d9;
+          
+       }
+       .comp button:hover{
+           background: lightskyblue;
+       }
+.formBx .title{
+    margin: 20px 0;
+    padding: 0 0 20px 20px;
+    border-bottom: 1.5px solid silver;
+     font-size: 20px;
+     color: #607d8b;
+}
